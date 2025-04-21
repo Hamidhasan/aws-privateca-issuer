@@ -33,6 +33,7 @@ fullnameOverride: ""
 # Number deployment revisions to keep
 revisionHistoryLimit: 10
 
+#+docs:property
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
