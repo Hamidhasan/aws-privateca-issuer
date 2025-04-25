@@ -200,52 +200,18 @@ Number deployment revisions to keep
 </tr>
 <tr>
 
-<td>serviceAccount.create</td>
+<td>serviceAccount</td>
 <td>
 
-Specifies whether a service account should be created
-
-</td>
-<td>bool</td>
-<td>
-
-```yaml
-true
-```
-
-</td>
-</tr>
-<tr>
-
-<td>serviceAccount.annotations</td>
-<td>
-
-Annotations to add to the service account
 
 </td>
 <td>object</td>
 <td>
 
 ```yaml
-{}
-```
-
-</td>
-</tr>
-<tr>
-
-<td>serviceAccount.name</td>
-<td>
-
-The name of the service account to use.  
-If not set and create is true, a name is generated using the fullname template
-
-</td>
-<td>string</td>
-<td>
-
-```yaml
-""
+annotations: {}
+create: true
+name: ""
 ```
 
 </td>
